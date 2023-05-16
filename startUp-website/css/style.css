@@ -16,6 +16,8 @@ h5,
 h6 {
     line-height: 1.25;
     font-family: 'Crimson Text', serif;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -99,22 +101,26 @@ ul {
     font-weight: bold;
 }
 
-.colored {
+.green-colored {
     color: #74C69D;
-    margin-top: 60px;
+    letter-spacing: 5px;
+}
+
+.black-colored {
+    color: black;
 }
 
 
-
-.heading {
+.banner-heading {
     font-size: 40px;
     color: white;
     margin: 15px 0 15px;
 }
 
-.paragraph {
+.banner-paragraph {
     color: white;
 }
+
 
 
 .banner-button {
@@ -137,4 +143,151 @@ ul {
     width: 100%;
     margin-bottom: 85px;
     text-align: left;
+}
+
+/*Partner Section */
+
+.partners-content {
+    max-width: 410px;
+    padding-top: 60px;
+    text-align: center;
+    margin: auto;
+}
+
+.partner-image {
+    max-width: 100%;
+    width: 100%;
+}
+
+.partner-apps {
+    margin-top: 60px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.partner-heading {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.button {
+    background-color: #212529;
+    color: white;
+    border-radius: 5px;
+    padding: 13px 30px;
+    text-decoration: none;
+}
+
+.partners-button {
+    text-align: center;
+}
+
+/* Friends Section */
+.friends-section {
+    margin-top: 75px;
+}
+
+.friends-image {
+    max-width: 100%;
+}
+
+.friends-content {
+    text-align: left;
+    margin-left: 130px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: black;
+    font-size: 40px;
+}
+
+.paragraph {
+    color: rgba(33, 37, 41, 0.5);
+    margin: 16px 0 30px;
+}
+
+/* Work Section */
+.work-image {
+    max-width: 100%;
+}
+
+.work-content {
+    margin-right: 110px;
+    text-align: left;
+
+}
+
+/*Team Section */
+.talent-section {
+    margin-top: 100px;
+}
+
+.talent-content {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.talent-heading {
+    margin: 16px 0 16px;
+}
+
+.talent-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+}
+
+
+.employee-heading {
+    font-size: 24px;
+    padding: 17px 0 17px;
+}
+
+.employee-sub-heading {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(33, 37, 41, 0.75);
+}
+
+.box {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+.button-wrapper {
+    margin-top: 45px;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background: #74C69D;
+    margin-top: 65px;
+    padding: 50px 130px;
+}
+
+.footer-heading {
+    font-size: 20px;
+    color: white
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.footer-text-wrapper {
+    display: flex;
+    justify-content: flex-end;
 }
